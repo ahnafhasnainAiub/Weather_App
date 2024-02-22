@@ -54,7 +54,7 @@ function SearchBox({ updateInfo }) {
   return (
     <div className="SearchBox">
     
-    <h3>Search Weather</h3>
+    <h3>Search City Weather</h3>
     <form onSubmit={handleSubmit}>
     <TextField id="city" label="City Name" variant="outlined" required
     value={city}
